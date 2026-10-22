@@ -1,0 +1,10 @@
+name: Belajar CI Pertama
+
+on: [push]
+
+jobs:
+  sapa-dunia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ucapkan salam ke Bang Nano
+        run: echo "Halo Bang Nano! Robot CI pertama kamu berhasil bangun dan jalan di cloud!"
